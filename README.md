@@ -31,7 +31,7 @@ cargo build
 
 # Notes
 1. The server must start before the client!
-2.  Diffie–Hellman key exchange algorithm is used for the key exchange.
+2.  The Diffie–Hellman key exchange algorithm is used for the key exchange.
 3.  Generate a private key and public key based on the p and g.
 4.  Compute key after getting client -> (g^clients private key)^our private key == shared secret
 5.  Passes the key to the argon2id function which is used as a KDF.
