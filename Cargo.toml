@@ -1,0 +1,12 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+openssl = "0.10.68"
+rand = "0.8.5"
+openssl-src = "300.4.1"
+openssl-sys = "0.9.104"
+http="1.1.0"
+json = "0.12.4"
